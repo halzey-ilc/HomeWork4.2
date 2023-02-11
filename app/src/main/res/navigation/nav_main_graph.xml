@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main_graph.xml"
+    app:startDestination="@id/animeFragment2">
+    <fragment
+        android:id="@+id/animeFragment2"
+        android:name="com.example.homework42.ui.fragments.anime.AnimeFragment"
+        android:label="fragment_manga"
+        tools:layout="@layout/fragment_manga" >
+        <action
+            android:id="@+id/action_animeFragment2_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.homework42.ui.fragments.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/mangaFragment"
+        android:name="com.example.homework42.ui.fragments.manga.MangaFragment"
+        android:label="MangaFragment" >
+        <action
+            android:id="@+id/action_mangaFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+    </fragment>
+</navigation>

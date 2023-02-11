@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HomeWork4.2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="anime">Anime</string>
+    <string name="todo">TODO</string>
+    <string name="todoo">TODO</string>
+    <string name="highest_rated_manga">Highest Rated Manga</string>
+    <string name="view_all">View All</string>
+</resources>
